@@ -11,6 +11,10 @@ This project utilizes a **"SQL-First" approach**. The entire analytical logic (i
 * What are the primary contributing factors for accidents across different boroughs?
 * How do seasonal trends impact collision rates?
 
+## ℹ️ Data Source
+The dataset used in this analysis was sourced from the **[Analyst Builder - Motor Vehicle Collisions Project](https://www.analystbuilder.com/projects/motor-vehicle-collisions-analysis-nyc-oeMWy)**.
+*(Original data provided by NYC Open Data)*.
+
 ## 📂 File Structure
 **`NYC_Collisions_Analysis.pbix`**  The interactive Power BI Dashboard for visual storytelling. 
 
@@ -32,8 +36,8 @@ This project utilizes a **"SQL-First" approach**. The entire analytical logic (i
 1.  **The "Safety Paradox":**
     * **Passenger Cars** account for the highest volume (~696k crashes) but have a low injury risk (~26%).
     * **Micromobility (E-bikes/Scooters)** accounts for low volume but has a staggering **77% injury risk** per crash.
-2.  **Top Causes:** * **Driver Distraction** is the #1 cause of accidents across all boroughs (~35%).
-3.  **Seasonality:** * SQL aggregations revealed a consistent accident peak in **Summer (June/July)** and a sharp drop in Winter.
+2.  **Top Causes:** **Driver Distraction** is the #1 cause of accidents across all boroughs (~35%).
+3.  **Seasonality:** SQL aggregations revealed a consistent accident peak in **Summer (June/July)** and a sharp drop in Winter.
 
 ## 🚀 How to Run
 1.  **View the Logic:** Open `SQL_Analysis_and_Prep.sql` to see the data transformation and analytical queries.
